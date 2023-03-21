@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Machinary To Buy</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename = 'css/buy_machinaries_style.css')}}">
+</head>
+<body>
+	<header>
+		<h1>Machinary List To Buy </h1>
+	</header>
+	
+	<main>
+		<h2>List of Machinary:</h2>
+		<section>
+			
+			<ul>
+				<li>
+					<h3>Agricultural Submersible Pump</h3>
+					<img src="{{url_for('static',filename = 'images/motar.jpeg')}}" width="400" height="200"/>
+					<p style="text-align:right;">Company Name : CRI 
+    --Cost : 25,000</p>
+					<a href="/first_login"><button action="/first_login">Buy</button></a>
+				</li>
+				<li>
+					<h3>Sprinkler</h3>
+					<img src="{{url_for('static',filename = 'images/splinker.jpeg')}}" width="400" height="200"/>
+					<p style="text-align:right;">Company Name : Jain Irrigation 
+    --Cost : 650/Piece</p>
+					<a href="/first_login"><button action="/first_login">Buy</button></a>
+				</li>
+				<li>
+					<h3>Pipes</h3>
+					<img src="{{url_for('static',filename = 'images/pipes.jpeg')}}" width="400" height="200"/>
+					<p style="text-align:right;" >Company Name : Finolex 
+    --Cost : 500/Piece</p>
+					<a href="/first_login"><button action="/first_login">Buy</button></a>
+				</li>
+				<li>
+					<h3>Starter Panel</h3>
+                              <img src="{{url_for('static',filename = 'images/startar.jpeg')}}" width="400" height="200"/>
+					<p style="text-align:right;" >Company Name : L&T 
+    --Cost : 1200/Piece</p>
+					<a href="/first_login"><button>Buy</button></a>
+				</li>
+				<li>
+					<h3>Big Roter</h3>
+                              <img src="{{url_for('static',filename = 'images/rotavetar.jpeg')}}" width="400" height="200"/>
+					<p style="text-align:right;" >Company Name : Mahindra 
+    --Cost : 500/hour</p>
+					<a href="/first_login"><button action="/first_login">Buy</button></a>
+				</li>
+			</ul>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Farm Rent Service Providers</p>
+	</footer>
+</body>
+</html>

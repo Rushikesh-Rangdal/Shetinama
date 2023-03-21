@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>SHETI NAMA</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="{{url_for('static',filename = 'bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/fontawesome.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/templatemo-grad-school.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/owl.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/lightbox.css')}}">
+<!--
+    
+TemplateMo 557 THE DATA TECH LAB
+
+https://templatemo.com/tm-557-THE DATA TECH LAB
+
+-->
+  </head>
+
+<body>
+  <a href="/login"><h1 style="padding-top: 2cm; text-align: right;">Register as a Rental</h1></a>
+  <a href="/farmer_login2"><h1 style="padding-top: 0cm; text-align: right;">Register as a Farmer</h1></a>
+
+  <!--header-->
+  <header class="main-header clearfix" role="header">
+    <div class="logo">
+      <a href="#"><em>SHETI </em>NAMA</a>
+    </div>
+    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+        <li><a href="register.html">Sign up</a></li>
+        <li><a href="#section1">Home</a></li>
+        <li class="has-submenu"><a href="#section2">About Us</a>
+          <ul class="sub-menu">
+            <li><a href="#section2">Who we are?</a></li>
+            <li><a href="#section3">What we do?</a></li>
+            <li><a href="#section3">How it works?</a></li>
+            <li><a href="https://templatemo.com/about" rel="sponsored" class="external">External URL</a></li>
+          </ul>
+        </li>
+        <li><a href="#section4">Services</a></li>
+        <!-- <li><a href="#section5">Video</a></li> -->
+        <li><a href="#section6">Contact</a></li>
+        <li><a href="https://templatemo.com" class="external">External</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <source src="{{url_for('static',filename = 'images/course-video.mp4')}}" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="caption">
+              <h6>SHETI NAMA</h6>
+              <h2><em>EVERYTHING ABOUT </em>FARMMING </h2>
+              <div class="main-button">
+                  <div class="scroll-to-section"><a href="#section2">Discover more</a></div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+
+  <section class="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <div class="features-post">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-pencil"></i>All Services</h4>
+              </div>
+              <div class="content-hide">
+                <p>There are various services provided by the Sheti Nama. </p>
+                <p class="hidden-sm">.</p>
+                <div class="scroll-to-section"><a href="#section2">More Info.</a></div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post second-features">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-graduation-cap"></i>Virtual Trial</h4>
+              </div>
+              <div class="content-hide">
+                <p>A virtual Trial is an online  experience in which you and farmers interact via the technical tools provided by the software.</p>
+                <p class="hidden-sm">.</p>
+                <div class="scroll-to-section"><a href="#section3">Details</a></div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post third-features">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-book"></i>Real Meeting</h4>
+              </div>
+              <div class="content-hide">
+                <p>Sheti Nama arranges real meeting for proper communication.</p>
+                <p class="hidden-sm"></p>
+                <div class="scroll-to-section"><a href="#section4">Read More</a></div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section why-us" data-section="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Why choose SHETI NAMA TEAM?</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div id='tabs'>
+            <ul>
+              <li><a href='#tabs-1'>Experienced Farmers</a></li>
+              <li><a href='#tabs-2'>Transparency</a></li>
+              <li><a href='#tabs-3'>Quality Meeting</a></li>
+            </ul>
+            <section class='tabs-content'>
+              <article id='tabs-1'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <!-- <img src="{{url_for('static',filename = 'images/choose-us-image-01.png')}}" alt="image not load"> -->
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Experienced Farmers</h4>
+                  <p>The number of years of experience the farmer has in farming, including the types of crops they have grown and any relevant farming techniques they have used. .</p>
+
+                 
+                </div>
+                </div>
+              </article>
+              <article id='tabs-2'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <!-- <img src="{{url_for('static',filename = 'images/choose-us-image-02.png')}}" alt="image not load"> -->
+                  </div>
+                  <div class="col-md-6">
+                    <h4> Skilled Team </h4>
+                    <p>Due to its highly skilled team of senior executives, legal and compliance professionals, intelligence and business intelligence experts each with more than 20 years’ experience in international negotiation, Due Diligence, 
+Background Checks, and worldwide studies and investigations, Governances has gained a genuine expertise in compliance for operational processes..</p> 
+                    <p></p>
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-3'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <!-- <img src="{{url_for('static',filename = 'images\choose-us-image-01.jpg')}}" alt="image not load"> -->
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Quality Meeting</h4>
+                    <p>Quality Meetings are conducted to review the Quality Reviews that have been generated. 
+The minutes (summary) of these meetings would include the discussion on the various Quality Reviews.</p>
+                  </div>
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section coming-soon" data-section="section3">
+    <div class="container">
+      <!-- <div class="row">
+        <div class="col-md-7 col-xs-12">
+          <div class="continer centerIt">
+            <div>
+              <h4>Take <em> any online course </em> and win exciting prices.</h4>
+              <div class="counter">
+
+                <div class="days">
+                  <div class="value">00</div>
+                  <span>Days</span>
+                </div>
+
+                <div class="hours">
+                  <div class="value">00</div>
+                  <span>Hours</span>
+                </div>
+
+                <div class="minutes">
+                  <div class="value">00</div>
+                  <span>Minutes</span>
+                </div>
+
+                <div class="seconds">
+                  <div class="value">00</div>
+                  <span>Seconds</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="col-md-5">
+          <div class="right-content">
+            <div class="top-content">
+              <h6>Register your free account and <em>get immediate</em> access to farmers</h6>
+            </div>
+            <form id="contact" action="" method="get">
+              <div class="row">
+                <div class="col-md-12">
+                  <fieldset>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <input name="phone-number" type="text" class="form-control" id="phone-number" placeholder="Your Phone Number" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="button">Get it now</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section courses" data-section="section4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Choose Your Service</h2>
+          </div>
+        </div>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <!-- <a href="https://youtu.be/G6DmDqYLWL8"><img src="{{url_for('static',filename = 'images/courses-01.jpg')}}" alt="Course #1" >  </a> -->
+            <div class="down-content">
+             <a href="/rent"><h4>Rent Your Farm</h4>
+              <p>'Rent Your Farm' is a concept where landowners can rent out their farmland to other farmers for a set period of time. This can be a great way for landowners to earn additional income from their land while helping to support the farming 
+                industry and provide opportunities for new or experienced farmers.</p>  
+              </a>         
+               </div>
+          </div>
+          <div class="item">
+            <!-- <a href="https://youtu.be/deMpBGYz7pY"><img src="{{url_for('static',filename = 'images/courses-02.jpg')}}" alt="Course #2"> </a> -->
+            <div class="down-content">
+              <a href="/machinary"><h4>Buy Machineries and equipments</h4>
+              <p>'Buy or Rent Machinery and Equipment' is a concept that provides farmers with access to the necessary tools and equipment to efficiently and effectively manage their farming operations. Whether they choose to buy or rent the equipment, this approach can help
+                farmers to reduce costs, improve efficiency, and increase productivity.</p>
+              </a>
+
+            </div>
+          </div>
+          <div class="item">
+           <!-- <a href="https://youtu.be/LSaUyqCTd6I"><img src="{{url_for('static',filename = 'images/courses-03.jpg')}}" alt="Course #3"> </a> -->
+            <div class="down-content">
+             <a href="https://agmarknet.gov.in/DailyDataEntry/Daily_data_Entry_Login.aspx "> <h4>Sell Your Product</h4>
+              <p>'Sell Your Product' is a concept that enables farmers to market and 
+                sell their agricultural products directly to consumers, bypassing the traditional supply chain intermediaries such as wholesalers and retailers. This approach can help farmers to increase their profitability, establish direct relationships with customers, and ensure 
+                that their products are sold at a fair price.</p>
+              </a>
+              
+            </div>
+          </div>
+          
+          
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="section video" data-section="section5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <span>our presentation is for you</span>
+            <h4>Watch the video to learn more <em>About Sheti Nama</em></h4>
+            <p> </a> 
+            <br><br>We see a change in the work environment, job roles, talent, skills, and organizational structure evolving significantly. Evidently, there is a merger of smart software, big data, machinery, and robotics allowing our jobs to become more diverse and demanding. In order to attract the best talent and stay current with trends and technology, organizations will need to understand the evolution of work. This will also have a major impact on the tech workers and how they should be rethinking their jobs on a daily basis. As a result, it calls for the ability to rapidly switch between different work demands,
+ deploy a variety of knowledge and reskill themselves to cope with ever-changing job expectations..</p>
+            <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo" target="_parent">External URL</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <article class="video-item">
+            <div class="video-caption">
+              <h4>SHETI NAMA</h4>
+            </div>
+            <figure>
+              <a href="https://www.youtube.com/channel/UCK0piUNZKoHaseTd_hsNVBw" class="play"><img src="E:\reaact\Om\templatemo_557_grad_school\assets"></a>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" data-section="section6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Lets Keep In Touch</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+        
+        <!-- Do you need a working HTML contact-form script?
+                	
+                    Please visit https://templatemo.com/contact page -->
+                    
+          <form id="contact" action="/submit" method="post">
+            <div class="row">
+              <div class="col-md-6">
+                  <fieldset>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
+                  </fieldset>
+                </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="button">Send Message Now</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+        
+  </section>
+
+  
+
+  <!-- Scripts -->
+
+    <script src="static/jquery/jquery.min.js"></script>
+    <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="static/js/isotope.min.js"></script>
+    <script src="static/js/owl-carousel.js"></script>
+    <script src="static/js/lightbox.js"></script>
+    <script src="static/js/tabs.js"></script>
+    <script src="static/js/video.js"></script>
+    <script src="static/js/slick-slider.js"></script>
+    <script src="static/js/custom.js"></script>
+    
+
+
+
+     
+        <script>
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+          if($(e.target).hasClass('external')) {
+            return;
+          }
+          e.preventDefault();
+          $('#menu').removeClass('active');
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+</html>
